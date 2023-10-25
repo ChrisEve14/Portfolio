@@ -102,23 +102,25 @@ img {
 
 .container-cards{
   display: grid;
+  justify-items: center;
+  align-items: center;
 
 }
 
 .a {
   float: left;
   padding: 10px;
-  margin: 100px;
+  /* margin: 100px; */
 }
 .a div{
-  height: 100px;
-  width: 100px; 
-  background-color: white;
+  height: 250px;
+  width: 100%; 
+  background-color: #ffbf69;
 }
 .b {
   float: right;
   padding: 10px;
-  margin: 100px;
+  /* margin: 100px; */
 }
 .b div{
   height: 100px;
@@ -128,7 +130,7 @@ img {
 .c {
   float: right;
   padding: 10px;
-  margin: 100px;
+  /* margin: 100px; */
 }
 .c div{
   height: 100px;
@@ -137,7 +139,7 @@ img {
 }
 .d {
   float: left;
-  margin: 100px;
+  /* margin: 100px; */
   /* float: none;
   clear: both; */
   padding: 10px;
